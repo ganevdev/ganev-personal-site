@@ -1,0 +1,27 @@
+{
+  "name": "ganev-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ganev-personal-site",
+  "keywords": [],
+  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "scripts": {
+    "build": "yarn clean && gatsby build",
+    "clean": "gatsby clean",
+    "start": "yarn clean && gatsby develop"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "gatsby build && lint-staged"
+    }
+  },
+  "dependencies": {
+    "gatsby": "^2.13.52",
+    "gatsby-theme-chronoblog": "git@github.com:Ganevru/gatsby-theme-chronoblog.git",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "husky": "^3.0.1"
+  }
+}
