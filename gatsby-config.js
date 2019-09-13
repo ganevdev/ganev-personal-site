@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'Ivan Ganev',
     siteDescription: 'Ivan Ganev Personal Site',
-    siteUrl: 'http://localhost:8000', // example - http://example.com
+    siteImage: '/banner.png', // main image of the site for meta tags
+    siteUrl: 'https://ganev.ru', // example - http://example.com
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
