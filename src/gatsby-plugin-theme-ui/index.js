@@ -3,6 +3,7 @@ import chronoblogTheme from 'gatsby-theme-chronoblog/src/gatsby-plugin-theme-ui'
 export default {
   ...chronoblogTheme,
   initialColorMode: 'light',
+  useCustomProperties: true,
   colors: {
     ...chronoblogTheme.colors,
     primary: '#3c40c6',
