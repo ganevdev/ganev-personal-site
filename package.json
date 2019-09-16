@@ -4,6 +4,7 @@
   "private": true,
   "description": "ganev-personal-site",
   "keywords": [],
+  "license": "UNLICENSED",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
   "scripts": {
     "build": "gatsby build",
