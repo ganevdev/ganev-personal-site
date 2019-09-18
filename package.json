@@ -12,8 +12,8 @@
     "start": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^2.15.15",
-    "gatsby-theme-chronoblog": "^0.0.5",
+    "gatsby": "^2.15.17",
+    "gatsby-theme-chronoblog": "^0.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
