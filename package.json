@@ -16,5 +16,9 @@
     "gatsby-theme-chronoblog": "^0.0.9",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
+  },
+  "engines": {
+    "yarn": "use npm!",
+    "node": ">= 8.0.0"
   }
 }
