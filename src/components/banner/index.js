@@ -3,11 +3,7 @@ import { jsx } from 'theme-ui';
 import imgForBanner from './2green-chameleon-unsplash-newImage-100.jpg';
 import imgIvanGanev from './IvanGanev4.jpg';
 
-export default ({
-  name = 'Ivan Ganev',
-  langLink = 'https://ru.ganev.ru/',
-  lang = 'на русском'
-}) => {
+export default () => {
   return (
     <div
       sx={{
@@ -40,14 +36,8 @@ export default ({
           }}
         ></div>
         <div>
-          <h1 sx={{ fontSize: '40px', my: '0px' }}>{name}</h1>
-          <p sx={{ marginTop: '0px', fontSize: '20px' }}>
-            {/* <span sx={{ fontSize: '13px' }}>🌐 </span>
-            <a sx={{ color: 'white' }} href={langLink}>
-              {lang}
-            </a> */}
-            web developer
-          </p>
+          <h1 sx={{ fontSize: '40px', my: '0px' }}>Ivan Ganev</h1>
+          <p sx={{ marginTop: '0px', fontSize: '20px' }}>web developer</p>
         </div>
       </div>
     </div>
