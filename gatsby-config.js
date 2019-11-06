@@ -3,7 +3,7 @@ module.exports = {
     siteTitle: 'Ivan Ganev',
     siteDescription: 'Ivan Ganev Personal Site',
     siteImage: '/banner.png', // main image of the site for meta tags
-    siteUrl: 'https://www.ganev.ru', // example - http://www.example.com
+    siteUrl: 'https://www.ganevdev.com', // example - http://www.example.com
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
