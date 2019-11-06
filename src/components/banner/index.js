@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import imgForBanner from './2green-chameleon-unsplash-newImage-100.jpeg';
+import imgForBanner from './2green-chameleon-unsplash-newImage-100.jpg';
 import imgIvanGanev from './IvanGanev4.jpg';
 
 export default ({
