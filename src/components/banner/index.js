@@ -20,7 +20,8 @@ export default ({
         backgroundColor: '#161616',
         borderRadius: '12px',
         boxShadow: '0 2px 8px #15151594',
-        marginBottom: '40px'
+        marginBottom: '40px',
+        textShadow: '0 0px 8px #161616'
       }}
     >
       <div sx={{ display: 'flex', alignItems: 'center' }}>
