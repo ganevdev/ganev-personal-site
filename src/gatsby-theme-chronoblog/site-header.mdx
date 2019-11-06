@@ -1,12 +1,33 @@
 <div
   style={{
+    width: '100%',
     display: 'flex',
     flexWrap: 'wrap',
-    fontWeight: 'bold',
-    fontSize: '18px'
+    justifyContent: 'space-between',
+    alignItems: 'center'
   }}
 >
-  <LinkNoStyle to="/">Home</LinkNoStyle>
+  <div
+    style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      fontWeight: 'bold',
+      fontSize: '18px'
+    }}
+  >
+    <LinkNoStyle to="/">Home</LinkNoStyle>
+  </div>
+  <div
+    style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center'
+    }}
+  >
+    <div style={{ width: '120px' }}>
+      <a href="https://www.ganev.ru/">на русском</a>
+    </div>
+    <LightDarkSwitchButton darkLabel="🌙" lightLabel="☀️" />
+  </div>
 </div>
-<div style="margin-left: auto; margin-right: auto;"></div>
-<LightDarkSwitchButton darkLabel="🌙" lightLabel="☀️" />
