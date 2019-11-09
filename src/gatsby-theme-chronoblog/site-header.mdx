@@ -1,34 +1,12 @@
-<div
-  style={{
-    width: '100%',
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  }}
->
-  <div
-    style={{
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'center',
-      fontWeight: 'bold',
-      fontSize: '18px'
-    }}
-  >
-    <LinkNoStyle to="/">Home</LinkNoStyle>
-  </div>
-  <div
-    style={{
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'center'
-    }}
-  >
-    <div style={{ marginRight: '30px' }}>
+<MenuMain>
+  <MenuBlock>
+    <Link to="/">Home</Link>
+  </MenuBlock>
+  <MenuBlock>
+    <div>
       <span style={{ fontSize: '13px' }}>🌐 </span>
       <a href="https://www.ganev.ru/">на русском</a>
     </div>
     <LightDarkSwitchButton darkLabel="🌙" lightLabel="☀️" />
-  </div>
-</div>
+  </MenuBlock>
+</MenuMain>
