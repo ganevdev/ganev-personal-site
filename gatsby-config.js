@@ -23,6 +23,18 @@ module.exports = {
           allTagsButton: 'all tags'
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Ivan Ganev Personal Site`,
+        short_name: `Ivan Ganev`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#3a5f7d`,
+        display: `standalone`,
+        icon: `src/assets/favicon.jpg`
+      }
     }
   ]
 };
