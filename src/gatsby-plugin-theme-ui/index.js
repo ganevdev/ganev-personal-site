@@ -6,6 +6,7 @@ export default {
   useColorSchemeMediaQuery: false,
   colors: {
     ...chronoblogTheme.colors,
+    text: '#111',
     primary: '#3c40c6',
     secondary: '#575fcf',
     muted: '#dae1e3',
