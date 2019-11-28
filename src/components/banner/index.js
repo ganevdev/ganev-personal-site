@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import imgForBanner from './banner-bg.jpg';
+import imgForBanner from './banner-bg-gr.png';
 import imgIvanGanev from './IvanGanev4.jpg';
 
 export default () => {
@@ -11,7 +11,7 @@ export default () => {
         backgroundImage: `url(${imgForBanner})`,
         backgroundPosition: ['50% 90%'],
         padding: ['20px', '20px'],
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: 'repeat',
         backgroundSize: ['auto 100%', '100% auto'],
         backgroundColor: '#161616',
         borderRadius: '12px',
