@@ -1,15 +1,27 @@
 module.exports = {
   siteMetadata: {
     siteTitle: 'Ivan Ganev',
-    siteDescription: 'Ivan Ganev Personal Site',
-    siteImage: '/banner.png',
+    siteDescription: 'Ivan Ganev personal website',
+    siteImage: '/avatar.jpg',
     siteUrl: 'https://www.ganevdev.com',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Ivan Ganev',
+    authorDescription: 'web developer',
+    avatar: './avatar.jpg',
     twitterSite: '@ganevru',
-    twitterCreator: '@ganevru'
+    twitterCreator: '@ganevru',
+    social: [
+      {
+        icon: 'github',
+        url: 'https://github.com/Ganevru'
+      },
+      {
+        icon: 'twitter',
+        url: 'https://twitter.com/Ganevru'
+      }
+    ]
   },
   plugins: [
     {
