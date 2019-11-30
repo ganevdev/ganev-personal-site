@@ -1,6 +1,11 @@
-import Banner from '../components/banner';
-
-<Banner />
+<AuthorBanner sx={{color: '#f1f2f6', backgroundImage: `url(/banner-bg-gr.png)`,}}>
+  <AuthorBannerAvatar />
+  <div>
+    <AuthorBannerHeading as='h1' sx={{fontSize: [7]}} />
+    <AuthorBannerDescription />
+    <SocialLinks fontSize="30px" />
+  </div>
+</AuthorBanner>
 
 Hi! I'm Ivan Ganev and I'm a web developer. This is my personal website.
 
