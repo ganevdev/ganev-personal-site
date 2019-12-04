@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'Ivan Ganev',
     siteDescription: 'Ivan Ganev personal website',
-    siteImage: '/banner-en.png',
+    siteImage: '/banner-en.jpg',
     siteUrl: 'https://www.ganevdev.com',
     pathPrefix: '/',
     siteLanguage: 'en',
