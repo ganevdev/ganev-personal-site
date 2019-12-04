@@ -9,7 +9,7 @@ module.exports = {
     ogLanguage: `en_US`,
     author: 'Ivan Ganev',
     authorDescription: 'web developer',
-    avatar: './avatar.jpg',
+    avatar: '/avatar.jpg',
     twitterSite: '@ganevru',
     twitterCreator: '@ganevru',
     social: [
