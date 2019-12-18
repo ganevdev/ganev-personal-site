@@ -5970,10 +5970,10 @@ gatsby-theme-chronoblog@^0.14.5:
     theme-ui "^0.2.49"
     url-join "^4.0.1"
 
-gatsby-theme-ganevru@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ganevru/-/gatsby-theme-ganevru-0.2.0.tgz#a8fdd2031cb6db38df21d9a4ad12fa209d5cb28d"
-  integrity sha512-sdxQ5GozokcTw2KXxREfrCoI9FMZydI7w8VK01jKVSfZXKdKwWlqEYXu+G/tfmbdgG+K/klmEYFUf0XGxzwH3g==
+gatsby-theme-ganevru@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ganevru/-/gatsby-theme-ganevru-0.2.1.tgz#753df2e26c3615873615f827903fb1e9394a6e4a"
+  integrity sha512-SPSRMgMuo4/1VR8ga0yKUDHV8+PzBT7GFSOLwgHnNWRxOV0qQZ5mL6RaGJIdH8SZLOykKgInH3HPkzkb8xAxlQ==
   dependencies:
     gatsby "^2.18.7"
     gatsby-theme-chronoblog "^0.14.5"
