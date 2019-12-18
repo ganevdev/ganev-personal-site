@@ -53,6 +53,14 @@ yarn-error.log
 .pnp.js
 .yarn-integrity
 
-# locks
-package-lock.json
-yarn.lock
+# personal
+README-RU.md
+README-DEV.md
+
+# dotenv environment variables file
+.env
+
+# secrets
+.contentful.json
+.env*
+!.env.example

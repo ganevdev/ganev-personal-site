@@ -25,11 +25,11 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-theme-chronoblog',
+      resolve: 'gatsby-theme-ganevru',
       options: {
         uiText: {
           // ui text fot translate
-          feedShowMoreButton: '↓ show more ↓',
+          feedShowMoreButton: 'show more',
           feedSearchPlaceholder: 'search',
           cardReadMoreButton: 'read more →',
           allTagsButton: 'all tags'
@@ -39,14 +39,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ivan Ganev Personal Site`,
-        short_name: `Ivan Ganev`,
+        name: `Chronoblog Gatsby Theme`,
+        short_name: `Chronoblog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3a5f7d`,
         display: `standalone`,
         icon: `src/assets/favicon.jpg`
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
     }
   ]
 };
